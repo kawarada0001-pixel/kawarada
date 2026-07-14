@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="myheader">
+        <h1 class="myheader-h1">
+            <a class="myheader-img" href="index.html"><img src="images/logo.svg" alt=""></a>
+        </h1>
+        <nav class="myheader-nav">
+            <ul class="myheader-ul">
+                <li class="myheader-li"><a class="" href="about.html">ABOUT</a></li>
+                <li class="myheader-li"><a class="" href="works.html">WORKS</a></li>
+                <li class="myheader-li"><a class="" href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="mymain">
+        <div class="mymain-img">
+            <img src="images/Wolf.png" alt="">
+        </div>
+
+        <article class="mymain-box">
+            <section class="mymain-box-sub">
+                <h1>kawarada T</h1>
+                <p>瓦田</p>
+                <p>「伝える力」で、現場の課題を技術に翻訳する。
+
+                    実務を動かすWeb・自動化ツールの開発から、
+                    現場が自走するための技術レクチャーまで。
+                    「作って終わり」にしない、持続可能なシステムをご提案します。</p>
+                <ul>
+                    <li>Webデザイン学習中</li>
+                    <li>趣味絵画鑑賞</li>
+                </ul>
+            </section>
+            <section class="mymain-box-sub">
+                <h3>アピールポイント</h3>
+                <p>現場に寄り添うエンジニア / 技術インストラクター
+                    福岡を拠点に、Webアプリケーション開発、業務自動化ツールの構築、および技術指導を行っています。
+
+                    単に要件通りのコードを書くのではなく、**「現場のメンバーが本当に使いこなせるか」「運用コストをいかに下げるか」**を常に意識した設計・開発が得意です。また、これまでに幅広い世代へプログラミング指導を行ってきた経験から、専門用語を極力使わず、誰もが直感的に理解できるコミュニケーションを大切にしています。
+                </p>
+                <h3>サービス内容詳細ホームページ・LP制作</h3>
+                <p>HTML、CSS、JavaScriptを用いて、デザインの意図を正確に再現したWebサイトやLP（ランディングページ）を制作します。スマートフォン対応（レスポンシブ対応）はもちろん、動きのある表現で魅力を伝えます。
+                </p>
+                <h3>WordPress構築・カスタマイズ</h3>
+                <p>「お知らせやブログをご自身で簡単に更新したい」というご要望にお応えし、WordPressを導入します。既存テーマのカスタマイズから、管理画面の使いやすさにこだわった構築まで対応可能です。</p>
+                <h3>安心の運用サポート</h3>
+                <p>納品後の操作マニュアルの作成や、更新方法のレクチャーも行っています。Webの管理に不慣れな担当者様でも、安心して自社運用をスタートできるようサポートいたします。</p>
+            </section>
+
+            <section class="mymain-box-sub">
+                <div><img src="" alt=""></div>
+                <h3>HTML5 / CSS3</h3>
+                <p>セマンティックで検索エンジンに評価されやすいコーディング、レスポンシブ対応。</p>
+                <h3>JavaScript</h3>
+                <p>スライドショー、ハンバーガーメニュー、アニメーションなど、Webサイトに動きや使いやすさをプラスする実装。</p>
+                <h3>WordPress</h3>
+                <p>テーマ導入、カスタマイズ、プラグインの選定・設定、更新しやすい管理画面の設計。</p>
+            </section>
+            <section class="mymain-box-sub">
+                <h3></h3>
+                <div class="images-box">
+                    <div><img src="images/img01.png" alt="" class="mymain-section03-img"></div>
+                    <div><img src="images/img02.png" alt="" class="mymain-section03-img"></div>
+                    <div><img src="images/img03.png" alt="" class="mymain-section03-img"></div>
+                    <div><img src="images/img04.png" alt="" class="mymain-section03-img"></div>
+                </div>
+            </section>
+            <section class="mymain-box-sub">
+                <h2>CONTACT</h2>
+            </section>
+        </article>
+    </main>
+    <div class="contact-form-container">
+  <form action="送信先のプログラムURL（WordPressプラグインやPHPなど）" method="POST" class="contact-form">
+    
+    <!-- お名前 -->
+    <div class="form-group">
+      <label for="user-name" class="form-label">
+        お名前 <span class="badge-required">必須</span>
+      </label>
+      <input 
+        type="text" 
+        id="user-name" 
+        name="your-name" 
+        class="form-control" 
+        placeholder="山田 太郎" 
+        required
+      >
+    </div>
+
+    <!-- メールアドレス -->
+    <div class="form-group">
+      <label for="user-email" class="form-label">
+        メールアドレス <span class="badge-required">必須</span>
+      </label>
+      <input 
+        type="email" 
+        id="user-email" 
+        name="your-email" 
+        class="form-control" 
+        placeholder="example@email.com" 
+        required
+      >
+    </div>
+
+    <!-- 件名（セレクトボックス） -->
+    <div class="form-group">
+      <label for="subject" class="form-label">
+        お問い合わせ件名 <span class="badge-required">必須</span>
+      </label>
+      <select id="subject" name="your-subject" class="form-control" required>
+        <option value="" disabled selected>選択してください</option>
+        <option value="web-production">ホームページ・LP制作のご相談</option>
+        <option value="wordpress">WordPress構築・カスタマイズ</option>
+        <option value="other">その他のお問い合わせ</option>
+      </select>
+    </div>
+
+    <!-- お問い合わせ内容 -->
+    <div class="form-group">
+      <label for="message" class="form-label">
+        お問い合わせ内容 <span class="badge-required">必須</span>
+      </label>
+      <textarea 
+        id="message" 
+        name="your-message" 
+        rows="6" 
+        class="form-control" 
+        placeholder="制作のご予算、納期、現在のWebサイトのURLなど、お分かりになる範囲でご記入ください。" 
+        required
+      ></textarea>
+    </div>
+
+    <!-- 送信ボタン -->
+    <div class="form-submit">
+      <button type="submit" class="submit-btn">この内容で送信する</button>
+    </div>
+
+  </form>
+</div>
+
+    <footer class="myfooter"></footer>
+</body>
+
+</html>
