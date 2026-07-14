@@ -1,0 +1,296 @@
+body {
+    font-family: "Oswald", sans-serif;
+    background: gray;
+}
+
+section {
+    background-color: aqua;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    display: flex;
+}
+
+header img {
+    width: 30%;
+}
+
+
+ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.myheader-ul {
+    padding-right: 20px;
+}
+nav ul li {
+    rotate: -30deg;
+    display: inline-block;
+    flex-direction: row;
+    margin: 2rem 0 0 0;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.myheader-img{
+    width: 100px;
+}
+
+.mymain{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mymain-img img{
+    width: 100%;
+}
+
+/* アバウトページ */
+h1 {
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.about {
+    margin-bottom: 5rem;
+}
+
+.wrapper {
+    width: 480px;
+    margin: 0 auto;
+}
+
+th {
+    padding: 1rem;
+    border-bottom: 2px solid;
+    font-size: 15px;
+    width: 30%;
+}
+
+td {
+    border-bottom: 1px solid;
+    padding: 1rem;
+    font-size: 15px;
+    width: 60%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 1rem;
+    width: 100%;
+}
+
+/* わーくすぺーじ */
+.works {
+    width: 70vw;
+    margin: 0 auto;
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.works div {
+    background-color: #37496d;
+}
+
+/* contact */
+
+input {
+    background: #ffff;
+    border-radius: 8px;
+    width: 100%;
+    height: 60px;
+}
+
+textarea {
+    background: #ffff;
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 60px;
+}
+
+button {
+    padding: 16px;
+    background: #000;
+    border-radius: 8px;
+    color: #ffff;
+    width: 100%;
+    text-align: center;
+}
+input,select,textarea{
+    background: #FFFFFF;
+    border: 1px solid #eeeeee;
+    line-height: 3;
+    margin: 0 auto 1rem;
+    display: block;
+    width: 100%;
+    padding: 0 1rem;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.select-box {
+    position: relative;
+        background: #ffff;
+    border-radius: 8px;
+    width: 100%;
+    height: 60px;
+    /* appearance: auto; 
+    -webkit-appearance: auto; 
+    -moz-appearance: auto; */
+
+}
+.select-box::after {
+    position: absolute;
+    top: 18px;
+    /*矢印の上からの位置*/
+    right: 20px;
+    /*矢印の右からの位置*/
+    width: 32px;
+    /*矢印の横幅*/
+    height: 32px;
+    /*矢印の縦幅*/
+    pointer-events: none;
+    font-family: "Font Awesome 6 Free";
+    content: '\f107';
+    font-weight: 900;
+}
+
+.mygrid img{
+    width: 100%;
+}
+
+.mymain{
+    margin: 0 auto;
+}
+
+.mymain-box-sub{
+    display: block;
+    padding: 20px;
+}
+.mymain-box-sub ul{
+    position: relative;
+}
+
+.mymain-section03-img{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+}
+.images-box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.myheader {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #f5efde;
+}
+
+/* フォーム全体のコンテナ */
+.contact-form-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 15%;
+  background-color: aqua;
+}
+
+/* 各入力項目のグループ */
+.form-group {
+  margin-bottom: 24px;
+}
+
+/* ラベル表記 */
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* 必須バッジ */
+.badge-required {
+  background-color: #e53e3e;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+/* 入力コントロール（input, select, textarea共通） */
+.form-control {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background-color: #fafafa;
+}
+
+/* フォーカス時のエフェクト */
+.form-control:focus {
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+  outline: none;
+  background-color: #fff;
+}
+
+/* テキストエリアの高さ固定（横方向のサイズ変更を禁止） */
+textarea.form-control {
+  resize: vertical;
+}
+
+/* 送信ボタンの配置エリア */
+.form-submit {
+  text-align: center;
+  margin-top: 32px;
+}
+
+/* 送信ボタン本体 */
+.submit-btn {
+  background-color: #3182ce;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 14px 48px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(49, 130, 206, 0.1);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+/* ボタンホバー時 */
+.submit-btn:hover {
+  background-color: #2b6cb0;
+  transform: translateY(-1px);
+}
+
+/* ボタンクリック時 */
+.submit-btn:active {
+  transform: translateY(1px);
+}
